@@ -1,0 +1,8 @@
+{"timestamp": "2025-12-06T20:10:04.101682Z", "level": "info", "event": "Starting Investment Planner Agent for CUST_001"}
+{"timestamp": "2025-12-06T20:10:04.102393Z", "level": "info", "event": "Investment Planner Agent initialized"}
+{"timestamp": "2025-12-06T20:10:04.102393Z", "level": "info", "event": "Creating investment plan for customer: CUST_001"}
+{"timestamp": "2025-12-06T20:10:04.102393Z", "level": "info", "event": "Loaded market data: 35 stocks"}
+{"timestamp": "2025-12-06T20:10:04.103683Z", "level": "info", "event": "Filtered to 16 stocks matching customer preferences"}
+{"timestamp": "2025-12-06T20:10:04.145724Z", "level": "info", "event": "Investment plan created: 8 stocks, Expected return: 13.64%"}
+{"timestamp": "2025-12-06T20:10:04.151851Z", "level": "info", "event": "Investment plan exported: D:\\DSATM\\Review papers\\Orchestrated-Multi-Agent-Investment-System-main\\data\\planner_data/investment_plan_CUST_001.json"}
+{"timestamp": "2025-12-06T20:10:04.151851Z", "level": "error", "event": "Error creating investment plan: 'charmap' codec can't encode character '\\u2705' in position 2: character maps to <undefined>"}

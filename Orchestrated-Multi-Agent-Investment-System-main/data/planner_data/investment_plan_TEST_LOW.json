@@ -1,0 +1,108 @@
+{
+  "customer_id": "TEST_LOW",
+  "plan_date": "2025-12-06T14:11:30.329970",
+  "total_capital": 100000.0,
+  "allocations": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "company_name": "HDFC Bank",
+      "sector": "BANKING",
+      "weight": 0.12353286041356898,
+      "dollar_amount": 12039.599853515625,
+      "shares": 12,
+      "expected_return": 0.17293484459368996,
+      "risk_score": 0.11326945395819715
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "company_name": "ICICI Bank",
+      "sector": "BANKING",
+      "weight": 0.08207100693127013,
+      "dollar_amount": 6962.5,
+      "shares": 5,
+      "expected_return": 0.24700546174377086,
+      "risk_score": 0.13881616741325511
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "company_name": "Kotak Mahindra Bank",
+      "sector": "BANKING",
+      "weight": 0.12353286041356931,
+      "dollar_amount": 10774.49951171875,
+      "shares": 5,
+      "expected_return": 0.2403842439535407,
+      "risk_score": 0.11930722846572041
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "company_name": "Axis Bank",
+      "sector": "BANKING",
+      "weight": 0.09084005251804672,
+      "dollar_amount": 8977.5,
+      "shares": 7,
+      "expected_return": 0.301349467415042,
+      "risk_score": 0.11838887882198837
+    },
+    {
+      "symbol": "SBIN.NS",
+      "company_name": "State Bank of India",
+      "sector": "BANKING",
+      "weight": 0.1025105188811557,
+      "dollar_amount": 9715.0,
+      "shares": 10,
+      "expected_return": 0.22001865200604087,
+      "risk_score": 0.14581795548103937
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.08564722647418066,
+      "dollar_amount": 7221.2001953125,
+      "shares": 4,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "company_name": "Cipla Limited",
+      "sector": "PHARMA",
+      "weight": 0.19593273718410423,
+      "dollar_amount": 18249.6005859375,
+      "shares": 12,
+      "expected_return": 0.04606160526256185,
+      "risk_score": 0.1395025110061138
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "company_name": "Divi's Laboratories",
+      "sector": "PHARMA",
+      "weight": 0.19593273718410423,
+      "dollar_amount": 19420.5,
+      "shares": 3,
+      "expected_return": -0.11334740689079623,
+      "risk_score": 0.1818470647252145
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 8,
+    "total_invested": 93360.40014648438,
+    "cash_remaining": 6639.599853515625,
+    "average_allocation": 0.125,
+    "max_allocation": 0.19593273718410423,
+    "min_allocation": 0.08207100693127013
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.0997206114090255,
+    "risk_level": "MEDIUM",
+    "max_drawdown_estimate": -0.199441222818051,
+    "sector_distribution": {
+      "BANKING": 0.5224872991576108,
+      "PHARMA": 0.47751270084238906
+    },
+    "concentration_risk": 0.19593273718410423
+  },
+  "expected_annual_return": 0.13643477322290315,
+  "sharpe_ratio": 1.3681702437953036,
+  "diversification_score": 0.5
+}

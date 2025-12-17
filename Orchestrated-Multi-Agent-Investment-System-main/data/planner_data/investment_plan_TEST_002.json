@@ -1,0 +1,77 @@
+{
+  "customer_id": "TEST_002",
+  "plan_date": "2025-12-06T13:50:44.577091",
+  "total_capital": 10000.0,
+  "allocations": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "company_name": "HDFC Bank",
+      "sector": "BANKING",
+      "weight": 0.2,
+      "dollar_amount": 1003.2999877929688,
+      "shares": 1,
+      "expected_return": 0.17293484459368996,
+      "risk_score": 0.11326945395819715
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "company_name": "ICICI Bank",
+      "sector": "BANKING",
+      "weight": 0.2,
+      "dollar_amount": 1392.5,
+      "shares": 1,
+      "expected_return": 0.24700546174377086,
+      "risk_score": 0.13881616741325511
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "company_name": "Kotak Mahindra Bank",
+      "sector": "BANKING",
+      "weight": 0.2,
+      "dollar_amount": 0.0,
+      "shares": 0,
+      "expected_return": 0.2403842439535407,
+      "risk_score": 0.11930722846572041
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "company_name": "Axis Bank",
+      "sector": "BANKING",
+      "weight": 0.2,
+      "dollar_amount": 1282.5,
+      "shares": 1,
+      "expected_return": 0.301349467415042,
+      "risk_score": 0.11838887882198837
+    },
+    {
+      "symbol": "SBIN.NS",
+      "company_name": "State Bank of India",
+      "sector": "BANKING",
+      "weight": 0.2,
+      "dollar_amount": 1943.0,
+      "shares": 2,
+      "expected_return": 0.22001865200604087,
+      "risk_score": 0.14581795548103937
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 5,
+    "total_invested": 5621.299987792969,
+    "cash_remaining": 4378.700012207031,
+    "average_allocation": 0.2,
+    "max_allocation": 0.2,
+    "min_allocation": 0.2
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.1048880052465521,
+    "risk_level": "LOW",
+    "max_drawdown_estimate": -0.2097760104931042,
+    "sector_distribution": {
+      "BANKING": 1.0
+    },
+    "concentration_risk": 0.2
+  },
+  "expected_annual_return": 0.23633853394241688,
+  "sharpe_ratio": 2.253246530781801,
+  "diversification_score": 1.0
+}

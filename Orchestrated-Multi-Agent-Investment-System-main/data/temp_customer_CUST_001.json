@@ -1,0 +1,10 @@
+{
+  "customer_id": "CUST_001",
+  "risk_appetite": "LOW",
+  "investment_capital": 100000.0,
+  "sector_preferences": [
+    "TECH"
+  ],
+  "return_expectation": 20.0,
+  "investment_horizon": "SHORT_TERM"
+}

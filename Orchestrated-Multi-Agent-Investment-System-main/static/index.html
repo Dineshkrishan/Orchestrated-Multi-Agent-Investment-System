@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered Multi-Agent Investment System with Modern Portfolio Theory">
+    <meta name="theme-color" content="#7c3aed">
+    <title>Multi-Agent Investment System | AI-Powered Portfolio Management</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🤖 Multi-Agent Investment System</h1>
+            <p class="subtitle">AI-Powered Portfolio Management with Modern Portfolio Theory</p>
+            <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot" id="statusDot"></span>
+                <span id="statusText">Checking status...</span>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('dashboard')">📊 Dashboard</button>
+            <button class="tab-btn" onclick="showTab('create')">➕ Create Portfolio</button>
+            <button class="tab-btn" onclick="showTab('market')">📈 Market Data</button>
+            <button class="tab-btn" onclick="showTab('results')">📋 Results</button>
+        </div>
+
+        <!-- Dashboard Tab -->
+        <div id="dashboard" class="tab-content active">
+            <h2>System Dashboard</h2>
+
+            <div class="agent-cards">
+                <div class="agent-card">
+                    <div class="agent-icon">📊</div>
+                    <h3>Monitor Agent</h3>
+                    <p>Collects real-time market data, technical indicators, and sector analysis</p>
+                    <button class="btn btn-primary" onclick="runMonitor()">Run Monitor</button>
+                    <div id="monitorStatus" class="agent-status"></div>
+                </div>
+
+                <div class="agent-card">
+                    <div class="agent-icon">🎯</div>
+                    <h3>Planner Agent</h3>
+                    <p>Creates optimized investment portfolios using Modern Portfolio Theory</p>
+                    <button class="btn btn-primary" onclick="showTab('create')">Create Plan</button>
+                    <div id="plannerStatus" class="agent-status"></div>
+                </div>
+
+                <div class="agent-card">
+                    <div class="agent-icon">🔮</div>
+                    <h3>Predictor Agent</h3>
+                    <p>Validates portfolios through backtesting and technical analysis</p>
+                    <button class="btn btn-primary" onclick="runPredictor()">Run Validation</button>
+                    <div id="predictorStatus" class="agent-status"></div>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h3>Quick Actions</h3>
+                <button class="btn btn-success btn-large" onclick="runAllAgents()">
+                    🚀 Run Complete Pipeline
+                </button>
+            </div>
+        </div>
+
+        <!-- Create Portfolio Tab -->
+        <div id="create" class="tab-content">
+            <h2>Create Investment Portfolio</h2>
+
+            <form id="portfolioForm" class="portfolio-form">
+                <div class="form-group">
+                    <label for="customerId">Customer ID</label>
+                    <input type="text" id="customerId" value="CUST_001" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="riskAppetite">Risk Appetite</label>
+                    <select id="riskAppetite" required>
+                        <option value="LOW">Low - Conservative</option>
+                        <option value="MEDIUM" selected>Medium - Balanced</option>
+                        <option value="HIGH">High - Aggressive</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="investmentCapital">Investment Capital (₹)</label>
+                    <input type="number" id="investmentCapital" value="100000" min="10000" step="1000" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="returnExpectation">Expected Return (%)</label>
+                    <input type="number" id="returnExpectation" value="15" min="5" max="50" step="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="investmentHorizon">Investment Horizon</label>
+                    <select id="investmentHorizon" required>
+                        <option value="SHORT_TERM">Short Term (< 1 year)</option>
+                        <option value="MEDIUM_TERM" selected>Medium Term (1-3 years)</option>
+                        <option value="LONG_TERM">Long Term (> 3 years)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Sector Preferences</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="sector" value="TECH" checked> Technology</label>
+                        <label><input type="checkbox" name="sector" value="BANKING" checked> Banking</label>
+                        <label><input type="checkbox" name="sector" value="PHARMA" checked> Pharmaceuticals</label>
+                        <label><input type="checkbox" name="sector" value="AUTO"> Automotive</label>
+                        <label><input type="checkbox" name="sector" value="ENERGY"> Energy</label>
+                        <label><input type="checkbox" name="sector" value="FMCG"> FMCG</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-success btn-large">Create Investment Plan</button>
+            </form>
+
+            <div id="planResult" class="result-container"></div>
+        </div>
+
+        <!-- Market Data Tab -->
+        <div id="market" class="tab-content">
+            <h2>Market Data Overview</h2>
+            <button class="btn btn-primary" onclick="loadMarketData()">Refresh Market Data</button>
+            <div id="marketDataContainer" class="market-data-container"></div>
+        </div>
+
+        <!-- Results Tab -->
+        <div id="results" class="tab-content">
+            <h2>Portfolio Results</h2>
+            <div class="form-group">
+                <label for="resultCustomerId">Customer ID</label>
+                <input type="text" id="resultCustomerId" value="CUST_001">
+                <button class="btn btn-primary" onclick="loadResults()">Load Results</button>
+            </div>
+            <div id="resultsContainer" class="results-container"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

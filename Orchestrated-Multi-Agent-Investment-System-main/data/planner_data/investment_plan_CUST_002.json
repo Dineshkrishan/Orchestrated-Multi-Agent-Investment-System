@@ -1,0 +1,98 @@
+{
+  "customer_id": "CUST_002",
+  "plan_date": "2025-12-06T14:06:35.606948",
+  "total_capital": 50000.0,
+  "allocations": [
+    {
+      "symbol": "KOTAKBANK.NS",
+      "company_name": "Kotak Mahindra Bank",
+      "sector": "BANKING",
+      "weight": 0.13636363636363902,
+      "dollar_amount": 6464.69970703125,
+      "shares": 3,
+      "expected_return": 0.24810409783143542,
+      "risk_score": 0.11930722846572041
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "company_name": "Axis Bank",
+      "sector": "BANKING",
+      "weight": 0.1363636363636331,
+      "dollar_amount": 6412.5,
+      "shares": 5,
+      "expected_return": 0.3090693212929367,
+      "risk_score": 0.11838887882198837
+    },
+    {
+      "symbol": "SBIN.NS",
+      "company_name": "State Bank of India",
+      "sector": "BANKING",
+      "weight": 0.09090909090909383,
+      "dollar_amount": 3886.0,
+      "shares": 4,
+      "expected_return": 0.22773850588393557,
+      "risk_score": 0.14581795548103937
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "company_name": "IndusInd Bank",
+      "sector": "BANKING",
+      "weight": 0.13636363636363413,
+      "dollar_amount": 6090.6998291015625,
+      "shares": 7,
+      "expected_return": 0.5586006140504,
+      "risk_score": 0.24115912553381383
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.1666666666666651,
+      "dollar_amount": 7221.2001953125,
+      "shares": 4,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "company_name": "Dr. Reddy's Labs",
+      "sector": "PHARMA",
+      "weight": 0.16666666666666852,
+      "dollar_amount": 7651.19970703125,
+      "shares": 6,
+      "expected_return": 0.30217176976265103,
+      "risk_score": 0.17520605641157225
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "weight": 0.16666666666666646,
+      "dollar_amount": 6296.400146484375,
+      "shares": 3,
+      "expected_return": 0.35681400455504003,
+      "risk_score": 0.16045070292319347
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 7,
+    "total_invested": 44022.69958496094,
+    "cash_remaining": 5977.3004150390625,
+    "average_allocation": 0.14285714285714288,
+    "max_allocation": 0.16666666666666852,
+    "min_allocation": 0.09090909090909383
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.1109607416469263,
+    "risk_level": "MEDIUM",
+    "max_drawdown_estimate": -0.2219214832938526,
+    "sector_distribution": {
+      "BANKING": 0.5000000000000001,
+      "PHARMA": 0.5
+    },
+    "concentration_risk": 0.16666666666666852
+  },
+  "expected_annual_return": 0.33787106581064913,
+  "sharpe_ratio": 3.044960413888946,
+  "diversification_score": 0.7777777777777778
+}

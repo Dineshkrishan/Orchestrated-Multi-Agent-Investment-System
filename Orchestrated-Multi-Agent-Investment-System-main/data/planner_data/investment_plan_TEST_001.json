@@ -1,0 +1,98 @@
+{
+  "customer_id": "TEST_001",
+  "plan_date": "2025-12-06T13:50:42.330662",
+  "total_capital": 500000.0,
+  "allocations": [
+    {
+      "symbol": "INFY.NS",
+      "company_name": "Infosys Limited",
+      "sector": "TECH",
+      "weight": 0.01100398394589628,
+      "dollar_amount": 4848.599853515625,
+      "shares": 3,
+      "expected_return": 0.5830176237156476,
+      "risk_score": 0.19067240620137849
+    },
+    {
+      "symbol": "TCS.NS",
+      "company_name": "Tata Consultancy Services",
+      "sector": "TECH",
+      "weight": 0.11468719728066398,
+      "dollar_amount": 55049.399169921875,
+      "shares": 17,
+      "expected_return": 0.484406566996924,
+      "risk_score": 0.14930780675382063
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "company_name": "Wipro Limited",
+      "sector": "TECH",
+      "weight": 0.17824931776424108,
+      "dollar_amount": 88889.2212524414,
+      "shares": 342,
+      "expected_return": 0.6073347230143478,
+      "risk_score": 0.14672023438788384
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "company_name": "HCL Technologies",
+      "sector": "TECH",
+      "weight": 0.15186523593649076,
+      "dollar_amount": 75735.0,
+      "shares": 45,
+      "expected_return": 0.702076299589227,
+      "risk_score": 0.19739103380990497
+    },
+    {
+      "symbol": "TECHM.NS",
+      "company_name": "Tech Mahindra",
+      "sector": "TECH",
+      "weight": 0.17824931776424072,
+      "dollar_amount": 87964.802734375,
+      "shares": 56,
+      "expected_return": 0.7610422168844826,
+      "risk_score": 0.18275204939284845
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.2536220210766145,
+      "dollar_amount": 126371.00341796875,
+      "shares": 70,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "weight": 0.11232292623185261,
+      "dollar_amount": 54568.80126953125,
+      "shares": 26,
+      "expected_return": 0.35681400455504003,
+      "risk_score": 0.16045070292319347
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 7,
+    "total_invested": 493426.8276977539,
+    "cash_remaining": 6573.172302246094,
+    "average_allocation": 0.14285714285714285,
+    "max_allocation": 0.2536220210766145,
+    "min_allocation": 0.01100398394589628
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.11538770565013755,
+    "risk_level": "HIGH",
+    "max_drawdown_estimate": -0.2307754113002751,
+    "sector_distribution": {
+      "TECH": 0.6340550526915328,
+      "PHARMA": 0.36594494730846716
+    },
+    "concentration_risk": 0.2536220210766145
+  },
+  "expected_annual_return": 0.5365600780116013,
+  "sharpe_ratio": 4.650062803384649,
+  "diversification_score": 0.6363636363636364
+}

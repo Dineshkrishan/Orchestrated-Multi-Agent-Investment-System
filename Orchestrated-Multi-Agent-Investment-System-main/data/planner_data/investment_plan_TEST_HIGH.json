@@ -1,0 +1,109 @@
+{
+  "customer_id": "TEST_HIGH",
+  "plan_date": "2025-12-06T14:11:36.537822",
+  "total_capital": 100000.0,
+  "allocations": [
+    {
+      "symbol": "TCS.NS",
+      "company_name": "Tata Consultancy Services",
+      "sector": "TECH",
+      "weight": 0.10950058180866983,
+      "dollar_amount": 9714.599853515625,
+      "shares": 3,
+      "expected_return": 0.484406566996924,
+      "risk_score": 0.14930780675382063
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "company_name": "Wipro Limited",
+      "sector": "TECH",
+      "weight": 0.15420260930572643,
+      "dollar_amount": 15334.690216064453,
+      "shares": 59,
+      "expected_return": 0.6073347230143478,
+      "risk_score": 0.14672023438788384
+    },
+    {
+      "symbol": "TECHM.NS",
+      "company_name": "Tech Mahindra",
+      "sector": "TECH",
+      "weight": 0.10930497100154889,
+      "dollar_amount": 9424.80029296875,
+      "shares": 6,
+      "expected_return": 0.7610422168844826,
+      "risk_score": 0.18275204939284845
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "company_name": "HDFC Bank",
+      "sector": "BANKING",
+      "weight": 0.11876806328447041,
+      "dollar_amount": 11036.299865722656,
+      "shares": 11,
+      "expected_return": 0.17293484459368996,
+      "risk_score": 0.11326945395819715
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "company_name": "Kotak Mahindra Bank",
+      "sector": "BANKING",
+      "weight": 0.14551128868376936,
+      "dollar_amount": 12929.3994140625,
+      "shares": 6,
+      "expected_return": 0.2403842439535407,
+      "risk_score": 0.11930722846572041
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "company_name": "Axis Bank",
+      "sector": "BANKING",
+      "weight": 0.1455112886837691,
+      "dollar_amount": 14107.5,
+      "shares": 11,
+      "expected_return": 0.301349467415042,
+      "risk_score": 0.11838887882198837
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.15420260930572624,
+      "dollar_amount": 14442.400390625,
+      "shares": 8,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "weight": 0.06299858792631967,
+      "dollar_amount": 6296.400146484375,
+      "shares": 3,
+      "expected_return": 0.35681400455504003,
+      "risk_score": 0.16045070292319347
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 8,
+    "total_invested": 93286.09017944336,
+    "cash_remaining": 6713.909820556641,
+    "average_allocation": 0.12499999999999999,
+    "max_allocation": 0.15420260930572643,
+    "min_allocation": 0.06299858792631967
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.09222359122650281,
+    "risk_level": "MEDIUM",
+    "max_drawdown_estimate": -0.18444718245300562,
+    "sector_distribution": {
+      "TECH": 0.3730081621159452,
+      "BANKING": 0.4097906406520089,
+      "PHARMA": 0.2172011972320459
+    },
+    "concentration_risk": 0.15420260930572643
+  },
+  "expected_annual_return": 0.40278596243164944,
+  "sharpe_ratio": 4.367493794970528,
+  "diversification_score": 0.5
+}

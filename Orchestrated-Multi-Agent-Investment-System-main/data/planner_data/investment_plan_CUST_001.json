@@ -1,0 +1,119 @@
+{
+  "customer_id": "CUST_001",
+  "plan_date": "2025-12-07T01:40:37.786231",
+  "total_capital": 100000.0,
+  "allocations": [
+    {
+      "symbol": "TCS.NS",
+      "company_name": "Tata Consultancy Services",
+      "sector": "TECH",
+      "weight": 0.14999999999999988,
+      "dollar_amount": 12952.7998046875,
+      "shares": 4,
+      "expected_return": 0.484406566996924,
+      "risk_score": 0.14930780675382063
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "company_name": "Wipro Limited",
+      "sector": "TECH",
+      "weight": 0.15000000000000002,
+      "dollar_amount": 14814.870208740234,
+      "shares": 57,
+      "expected_return": 0.6073347230143478,
+      "risk_score": 0.14672023438788384
+    },
+    {
+      "symbol": "TECHM.NS",
+      "company_name": "Tech Mahindra",
+      "sector": "TECH",
+      "weight": 0.035150602155068746,
+      "dollar_amount": 3141.60009765625,
+      "shares": 2,
+      "expected_return": 0.7610422168844826,
+      "risk_score": 0.18275204939284845
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.15000000000000005,
+      "dollar_amount": 14442.400390625,
+      "shares": 8,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "company_name": "Cipla Limited",
+      "sector": "PHARMA",
+      "weight": 0.13262782241235876,
+      "dollar_amount": 12166.400390625,
+      "shares": 8,
+      "expected_return": 0.04606160526256185,
+      "risk_score": 0.1395025110061138
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "weight": 0.06799121028712497,
+      "dollar_amount": 6296.400146484375,
+      "shares": 3,
+      "expected_return": 0.35681400455504003,
+      "risk_score": 0.16045070292319347
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "company_name": "Reliance Industries",
+      "sector": "ENERGY",
+      "weight": 0.14999999999999997,
+      "dollar_amount": 13865.399780273438,
+      "shares": 9,
+      "expected_return": 0.24320124007172794,
+      "risk_score": 0.14077859387606706
+    },
+    {
+      "symbol": "ONGC.NS",
+      "company_name": "Oil & Natural Gas Corp",
+      "sector": "ENERGY",
+      "weight": 0.036272478137930865,
+      "dollar_amount": 3618.449935913086,
+      "shares": 15,
+      "expected_return": -0.09456601298042289,
+      "risk_score": 0.14712992405191697
+    },
+    {
+      "symbol": "NTPC.NS",
+      "company_name": "NTPC Limited",
+      "sector": "ENERGY",
+      "weight": 0.12795788700751673,
+      "dollar_amount": 12608.699523925781,
+      "shares": 39,
+      "expected_return": -0.028120325294820468,
+      "risk_score": 0.13892712665927195
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 9,
+    "total_invested": 93907.02027893066,
+    "cash_remaining": 6092.979721069336,
+    "average_allocation": 0.1111111111111111,
+    "max_allocation": 0.15000000000000005,
+    "min_allocation": 0.035150602155068746
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.0960160588286616,
+    "risk_level": "MEDIUM",
+    "max_drawdown_estimate": -0.1920321176573232,
+    "sector_distribution": {
+      "TECH": 0.3351506021550687,
+      "PHARMA": 0.3506190326994838,
+      "ENERGY": 0.31423036514544755
+    },
+    "concentration_risk": 0.15000000000000005
+  },
+  "expected_annual_return": 0.30000041560520835,
+  "sharpe_ratio": 3.124481667598459,
+  "diversification_score": 0.6
+}

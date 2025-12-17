@@ -1,0 +1,25 @@
+{"timestamp": "2025-12-06T20:10:07.109376Z", "level": "info", "event": "Starting Target Predictor Agent Demo"}
+{"timestamp": "2025-12-06T20:10:07.110399Z", "level": "info", "event": "Target Predictor Agent initialized"}
+{"timestamp": "2025-12-06T20:10:07.111393Z", "level": "info", "event": "Starting validation for customer: CUST_001"}
+{"timestamp": "2025-12-06T20:10:07.111393Z", "level": "info", "event": "Loaded investment plan for CUST_001"}
+{"timestamp": "2025-12-06T20:10:07.112395Z", "level": "info", "event": "Loaded current market data from Monitor"}
+{"timestamp": "2025-12-06T20:10:07.112395Z", "level": "info", "event": "Fetching historical data for 8 stocks..."}
+{"timestamp": "2025-12-06T20:10:08.638788Z", "level": "info", "event": "\u2713 HDFCBANK.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:08.951767Z", "level": "info", "event": "\u2713 ICICIBANK.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:09.112368Z", "level": "info", "event": "\u2713 KOTAKBANK.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:09.443769Z", "level": "info", "event": "\u2713 AXISBANK.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:09.622593Z", "level": "info", "event": "\u2713 SBIN.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:09.824968Z", "level": "info", "event": "\u2713 SUNPHARMA.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:10.049495Z", "level": "info", "event": "\u2713 CIPLA.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:10.208176Z", "level": "info", "event": "\u2713 DIVISLAB.NS: 251 days"}
+{"timestamp": "2025-12-06T20:10:10.209163Z", "level": "info", "event": "Running historical backtest..."}
+{"timestamp": "2025-12-06T20:10:10.242138Z", "level": "info", "event": "Backtest complete: Return=8.74%, Sharpe=0.66"}
+{"timestamp": "2025-12-06T20:10:10.242138Z", "level": "info", "event": "Validating current technical signals..."}
+{"timestamp": "2025-12-06T20:10:10.242138Z", "level": "info", "event": "Technical validation: Score=0.73, Direction=POSITIVE"}
+{"timestamp": "2025-12-06T20:10:10.243135Z", "level": "info", "event": "Assessing portfolio risk..."}
+{"timestamp": "2025-12-06T20:10:10.243135Z", "level": "info", "event": "Risk assessment: Score=0.80, Acceptable=True"}
+{"timestamp": "2025-12-06T20:10:10.243135Z", "level": "info", "event": "Making validation decision..."}
+{"timestamp": "2025-12-06T20:10:10.243726Z", "level": "info", "event": "Decision: REVISE | Return: 8.51% | Confidence: 70.3%"}
+{"timestamp": "2025-12-06T20:10:10.245812Z", "level": "info", "event": "Validation JSON exported: D:\\DSATM\\Review papers\\Orchestrated-Multi-Agent-Investment-System-main\\data\\predictor_data/validation_CUST_001.json"}
+{"timestamp": "2025-12-06T20:10:10.252491Z", "level": "error", "event": "Validation failed: 'MergedCell' object has no attribute 'column_letter'"}
+{"timestamp": "2025-12-06T20:10:10.252491Z", "level": "error", "event": "Error in validation: 'MergedCell' object has no attribute 'column_letter'"}

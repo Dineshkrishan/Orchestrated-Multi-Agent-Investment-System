@@ -1,0 +1,49 @@
+{
+  "customer_id": "CUST_001",
+  "validation_date": "2025-12-07T01:40:10.243726",
+  "status": "REVISE",
+  "predicted_return": 0.0851035704180122,
+  "target_return": 0.13643476717588127,
+  "confidence_level": 0.7031506849315068,
+  "meets_expectations": false,
+  "revision_priority": "HIGH",
+  "feedback": [
+    "\u26a0\ufe0f Portfolio requires revision - Priority: 0.8",
+    "\u274c Return shortfall: 5.13% below target",
+    "   \u2192 Predicted return: 8.51% | Target: 13.64%",
+    "   \u2192 Historical performance below target: Consider selecting higher-performing stocks",
+    "\u274c Confidence level below threshold: 70.3% < 85%",
+    "   \u2192 Limited historical data reliability",
+    "\u26a0\ufe0f Moderate risk-adjusted returns: Sharpe ratio 0.66",
+    "   \u2192 Action: Seek stocks with better risk-return profile",
+    "\u26a0\ufe0f More weak signals (2) than strong signals (0)",
+    "   \u2192 Action: Replace stocks with DOWN/STRONG_DOWN signals",
+    "\u26a0\ufe0f Recommendation: Revise portfolio allocation and resubmit for validation"
+  ],
+  "historical_analysis": {
+    "predicted_return": 0.08738897895772688,
+    "volatility": 0.1331953768066619,
+    "sharpe_ratio": 0.6560961878172038,
+    "max_drawdown": -0.08339352078347467,
+    "win_rate": 0.516,
+    "confidence": 0.6719178082191781
+  },
+  "technical_analysis": {
+    "technical_score": 0.7260040676305795,
+    "predicted_direction": "POSITIVE",
+    "strong_signals": 0,
+    "weak_signals": 2,
+    "confidence": 0.7
+  },
+  "risk_analysis": {
+    "risk_acceptable": true,
+    "volatility_ratio": 0.3324020402339562,
+    "concentration_warning": false,
+    "sector_warning": true,
+    "risk_score": 0.8,
+    "warnings": [
+      "High sector concentration: 52.25% in BANKING (recommended < 40%)"
+    ],
+    "confidence": 0.9
+  }
+}

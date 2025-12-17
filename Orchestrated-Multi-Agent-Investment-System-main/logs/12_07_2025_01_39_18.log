@@ -1,0 +1,82 @@
+{"timestamp": "2025-12-06T20:09:18.045088Z", "level": "info", "event": "Starting Monitor Agent - Pure Market Data Collection"}
+{"timestamp": "2025-12-06T20:09:18.046097Z", "level": "info", "event": "Monitor Agent initialized: 35 stocks, 6 sectors"}
+{"timestamp": "2025-12-06T20:09:18.046097Z", "level": "info", "event": "Starting comprehensive market data collection..."}
+{"timestamp": "2025-12-06T20:09:18.046097Z", "level": "info", "event": "Collecting data for 35 stocks..."}
+{"timestamp": "2025-12-06T20:09:26.190614Z", "level": "info", "event": "\u2713 INFY.NS"}
+{"timestamp": "2025-12-06T20:09:26.920585Z", "level": "info", "event": "\u2713 TCS.NS"}
+{"timestamp": "2025-12-06T20:09:27.526557Z", "level": "info", "event": "\u2713 WIPRO.NS"}
+{"timestamp": "2025-12-06T20:09:28.147465Z", "level": "info", "event": "\u2713 HCLTECH.NS"}
+{"timestamp": "2025-12-06T20:09:28.761760Z", "level": "info", "event": "\u2713 TECHM.NS"}
+{"timestamp": "2025-12-06T20:09:29.327195Z", "level": "info", "event": "\u2713 HDFCBANK.NS"}
+{"timestamp": "2025-12-06T20:09:29.977508Z", "level": "info", "event": "\u2713 ICICIBANK.NS"}
+{"timestamp": "2025-12-06T20:09:30.607841Z", "level": "info", "event": "\u2713 KOTAKBANK.NS"}
+{"timestamp": "2025-12-06T20:09:31.109023Z", "level": "info", "event": "\u2713 AXISBANK.NS"}
+{"timestamp": "2025-12-06T20:09:31.820691Z", "level": "info", "event": "\u2713 SBIN.NS"}
+{"timestamp": "2025-12-06T20:09:32.435420Z", "level": "info", "event": "\u2713 INDUSINDBK.NS"}
+{"timestamp": "2025-12-06T20:09:33.049891Z", "level": "info", "event": "\u2713 SUNPHARMA.NS"}
+{"timestamp": "2025-12-06T20:09:33.663862Z", "level": "info", "event": "\u2713 DRREDDY.NS"}
+{"timestamp": "2025-12-06T20:09:34.188711Z", "level": "info", "event": "\u2713 CIPLA.NS"}
+{"timestamp": "2025-12-06T20:09:34.793371Z", "level": "info", "event": "\u2713 DIVISLAB.NS"}
+{"timestamp": "2025-12-06T20:09:35.420260Z", "level": "info", "event": "\u2713 BIOCON.NS"}
+{"timestamp": "2025-12-06T20:09:36.034310Z", "level": "info", "event": "\u2713 LUPIN.NS"}
+{"timestamp": "2025-12-06T20:09:36.633735Z", "level": "info", "event": "\u2713 TATAMOTORS.NS"}
+{"timestamp": "2025-12-06T20:09:37.144453Z", "level": "info", "event": "\u2713 MARUTI.NS"}
+{"timestamp": "2025-12-06T20:09:37.668796Z", "level": "info", "event": "\u2713 M&M.NS"}
+{"timestamp": "2025-12-06T20:09:38.230079Z", "level": "info", "event": "\u2713 BAJAJ-AUTO.NS"}
+{"timestamp": "2025-12-06T20:09:38.793705Z", "level": "info", "event": "\u2713 EICHERMOT.NS"}
+{"timestamp": "2025-12-06T20:09:39.411625Z", "level": "info", "event": "\u2713 HEROMOTOCO.NS"}
+{"timestamp": "2025-12-06T20:09:40.012254Z", "level": "info", "event": "\u2713 RELIANCE.NS"}
+{"timestamp": "2025-12-06T20:09:40.539349Z", "level": "info", "event": "\u2713 ONGC.NS"}
+{"timestamp": "2025-12-06T20:09:41.081315Z", "level": "info", "event": "\u2713 NTPC.NS"}
+{"timestamp": "2025-12-06T20:09:41.571356Z", "level": "info", "event": "\u2713 TATAPOWER.NS"}
+{"timestamp": "2025-12-06T20:09:42.070807Z", "level": "info", "event": "\u2713 ADANIGREEN.NS"}
+{"timestamp": "2025-12-06T20:09:42.744719Z", "level": "info", "event": "\u2713 IOC.NS"}
+{"timestamp": "2025-12-06T20:09:43.294285Z", "level": "info", "event": "\u2713 HINDUNILVR.NS"}
+{"timestamp": "2025-12-06T20:09:44.103284Z", "level": "info", "event": "\u2713 ITC.NS"}
+{"timestamp": "2025-12-06T20:09:44.830506Z", "level": "info", "event": "\u2713 NESTLEIND.NS"}
+{"timestamp": "2025-12-06T20:09:45.750405Z", "level": "info", "event": "\u2713 BRITANNIA.NS"}
+{"timestamp": "2025-12-06T20:09:46.463416Z", "level": "info", "event": "\u2713 DABUR.NS"}
+{"timestamp": "2025-12-06T20:09:47.184518Z", "level": "info", "event": "\u2713 GODREJCP.NS"}
+{"timestamp": "2025-12-06T20:09:47.184518Z", "level": "info", "event": "Collected 35 stocks"}
+{"timestamp": "2025-12-06T20:09:47.184518Z", "level": "info", "event": "Calculating indicators for 35 stocks..."}
+{"timestamp": "2025-12-06T20:09:47.435641Z", "level": "info", "event": "\u2713 INFY.NS"}
+{"timestamp": "2025-12-06T20:09:47.614738Z", "level": "info", "event": "\u2713 TCS.NS"}
+{"timestamp": "2025-12-06T20:09:47.811459Z", "level": "info", "event": "\u2713 WIPRO.NS"}
+{"timestamp": "2025-12-06T20:09:48.036962Z", "level": "info", "event": "\u2713 HCLTECH.NS"}
+{"timestamp": "2025-12-06T20:09:48.238517Z", "level": "info", "event": "\u2713 TECHM.NS"}
+{"timestamp": "2025-12-06T20:09:48.417844Z", "level": "info", "event": "\u2713 HDFCBANK.NS"}
+{"timestamp": "2025-12-06T20:09:48.565393Z", "level": "info", "event": "\u2713 ICICIBANK.NS"}
+{"timestamp": "2025-12-06T20:09:48.736370Z", "level": "info", "event": "\u2713 KOTAKBANK.NS"}
+{"timestamp": "2025-12-06T20:09:49.060743Z", "level": "info", "event": "\u2713 AXISBANK.NS"}
+{"timestamp": "2025-12-06T20:09:49.225446Z", "level": "info", "event": "\u2713 SBIN.NS"}
+{"timestamp": "2025-12-06T20:09:49.463173Z", "level": "info", "event": "\u2713 INDUSINDBK.NS"}
+{"timestamp": "2025-12-06T20:09:49.657288Z", "level": "info", "event": "\u2713 SUNPHARMA.NS"}
+{"timestamp": "2025-12-06T20:09:49.840781Z", "level": "info", "event": "\u2713 DRREDDY.NS"}
+{"timestamp": "2025-12-06T20:09:50.090947Z", "level": "info", "event": "\u2713 CIPLA.NS"}
+{"timestamp": "2025-12-06T20:09:50.231408Z", "level": "info", "event": "\u2713 DIVISLAB.NS"}
+{"timestamp": "2025-12-06T20:09:50.379710Z", "level": "info", "event": "\u2713 BIOCON.NS"}
+{"timestamp": "2025-12-06T20:09:50.592163Z", "level": "info", "event": "\u2713 LUPIN.NS"}
+{"timestamp": "2025-12-06T20:09:50.806999Z", "level": "info", "event": "\u2713 TATAMOTORS.NS"}
+{"timestamp": "2025-12-06T20:09:51.005149Z", "level": "info", "event": "\u2713 MARUTI.NS"}
+{"timestamp": "2025-12-06T20:09:51.213222Z", "level": "info", "event": "\u2713 M&M.NS"}
+{"timestamp": "2025-12-06T20:09:51.408299Z", "level": "info", "event": "\u2713 BAJAJ-AUTO.NS"}
+{"timestamp": "2025-12-06T20:09:51.619079Z", "level": "info", "event": "\u2713 EICHERMOT.NS"}
+{"timestamp": "2025-12-06T20:09:51.833857Z", "level": "info", "event": "\u2713 HEROMOTOCO.NS"}
+{"timestamp": "2025-12-06T20:09:52.001322Z", "level": "info", "event": "\u2713 RELIANCE.NS"}
+{"timestamp": "2025-12-06T20:09:52.220885Z", "level": "info", "event": "\u2713 ONGC.NS"}
+{"timestamp": "2025-12-06T20:09:52.436999Z", "level": "info", "event": "\u2713 NTPC.NS"}
+{"timestamp": "2025-12-06T20:09:52.635923Z", "level": "info", "event": "\u2713 TATAPOWER.NS"}
+{"timestamp": "2025-12-06T20:09:52.829176Z", "level": "info", "event": "\u2713 ADANIGREEN.NS"}
+{"timestamp": "2025-12-06T20:09:52.959443Z", "level": "info", "event": "\u2713 IOC.NS"}
+{"timestamp": "2025-12-06T20:09:53.144778Z", "level": "info", "event": "\u2713 HINDUNILVR.NS"}
+{"timestamp": "2025-12-06T20:09:53.347815Z", "level": "info", "event": "\u2713 ITC.NS"}
+{"timestamp": "2025-12-06T20:09:53.547878Z", "level": "info", "event": "\u2713 NESTLEIND.NS"}
+{"timestamp": "2025-12-06T20:09:53.771710Z", "level": "info", "event": "\u2713 BRITANNIA.NS"}
+{"timestamp": "2025-12-06T20:09:53.928368Z", "level": "info", "event": "\u2713 DABUR.NS"}
+{"timestamp": "2025-12-06T20:09:54.188083Z", "level": "info", "event": "\u2713 GODREJCP.NS"}
+{"timestamp": "2025-12-06T20:09:54.188083Z", "level": "info", "event": "Calculated 35 indicators"}
+{"timestamp": "2025-12-06T20:09:54.189666Z", "level": "info", "event": "Analyzed 6 sectors"}
+{"timestamp": "2025-12-06T20:09:54.462190Z", "level": "info", "event": "Market report saved: D:\\DSATM\\Review papers\\Orchestrated-Multi-Agent-Investment-System-main\\data\\monitor_data/MarketData_General_20251207.xlsx"}
+{"timestamp": "2025-12-06T20:09:54.469598Z", "level": "info", "event": "General market data exported to D:\\DSATM\\Review papers\\Orchestrated-Multi-Agent-Investment-System-main\\data\\monitor_data"}
+{"timestamp": "2025-12-06T20:09:54.470214Z", "level": "info", "event": "Market data collection completed successfully!"}
+{"timestamp": "2025-12-06T20:09:54.470214Z", "level": "error", "event": "Error in main execution: 'charmap' codec can't encode character '\\U0001f389' in position 0: character maps to <undefined>"}

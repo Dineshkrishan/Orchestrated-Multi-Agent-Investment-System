@@ -1,0 +1,580 @@
+{
+  "timestamp": "2025-12-07T01:39:54.463185",
+  "market_overview": {
+    "sentiment": "NEUTRAL",
+    "volatility": 0.01158076697579133,
+    "breadth": 4.833333333333333,
+    "fear_greed_index": "NEUTRAL"
+  },
+  "stocks": [
+    {
+      "symbol": "INFY.NS",
+      "company_name": "Infosys Limited",
+      "sector": "TECH",
+      "current_price": 1616.199951171875,
+      "price_change_pct": 1.1642448591748227,
+      "volume": 10344725,
+      "market_cap": 6700010045440.0,
+      "technical_indicators": {
+        "rsi": 75.42134550531458,
+        "volatility": 0.19067240620137849,
+        "momentum_20d": 0.09439321352566798,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "TCS.NS",
+      "company_name": "Tata Consultancy Services",
+      "sector": "TECH",
+      "current_price": 3238.199951171875,
+      "price_change_pct": 0.278706804660204,
+      "volume": 5244013,
+      "market_cap": 11716090920960.0,
+      "technical_indicators": {
+        "rsi": 73.00408993901432,
+        "volatility": 0.14930780675382063,
+        "momentum_20d": 0.08235841243476938,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "company_name": "Wipro Limited",
+      "sector": "TECH",
+      "current_price": 259.9100036621094,
+      "price_change_pct": 1.1598532951692357,
+      "volume": 7886562,
+      "market_cap": 2722364915712.0,
+      "technical_indicators": {
+        "rsi": 75.99998799309002,
+        "volatility": 0.14672023438788384,
+        "momentum_20d": 0.09903166148652431,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "company_name": "HCL Technologies",
+      "sector": "TECH",
+      "current_price": 1683.0,
+      "price_change_pct": 1.7164284318332172,
+      "volume": 3391204,
+      "market_cap": 4559761571840.0,
+      "technical_indicators": {
+        "rsi": 65.2467911633257,
+        "volatility": 0.19739103380990497,
+        "momentum_20d": 0.1128008283734534,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "TECHM.NS",
+      "company_name": "Tech Mahindra",
+      "sector": "TECH",
+      "current_price": 1570.800048828125,
+      "price_change_pct": 0.5440696239096846,
+      "volume": 2223397,
+      "market_cap": 1390825701376.0,
+      "technical_indicators": {
+        "rsi": 79.38246297464853,
+        "volatility": 0.18275204939284845,
+        "momentum_20d": 0.13276130679940557,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "company_name": "HDFC Bank",
+      "sector": "BANKING",
+      "current_price": 1003.2999877929688,
+      "price_change_pct": 0.6117103400788034,
+      "volume": 12843366,
+      "market_cap": 15433234120704.0,
+      "technical_indicators": {
+        "rsi": 53.33333333333333,
+        "volatility": 0.11326945395819715,
+        "momentum_20d": 0.021378397903865087,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "company_name": "ICICI Bank",
+      "sector": "BANKING",
+      "current_price": 1392.5,
+      "price_change_pct": 0.4182627123642345,
+      "volume": 4942638,
+      "market_cap": 9955419619328.0,
+      "technical_indicators": {
+        "rsi": 55.361412490182964,
+        "volatility": 0.13881616741325511,
+        "momentum_20d": 0.03685778108711846,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "company_name": "Kotak Mahindra Bank",
+      "sector": "BANKING",
+      "current_price": 2154.89990234375,
+      "price_change_pct": 0.9131779007106534,
+      "volume": 1931695,
+      "market_cap": 4285563666432.0,
+      "technical_indicators": {
+        "rsi": 64.82322810533935,
+        "volatility": 0.11930722846572041,
+        "momentum_20d": 0.03189189865364339,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "company_name": "Axis Bank",
+      "sector": "BANKING",
+      "current_price": 1282.5,
+      "price_change_pct": 0.1953125,
+      "volume": 2728214,
+      "market_cap": 4037159682048.0,
+      "technical_indicators": {
+        "rsi": 62.17619904277168,
+        "volatility": 0.11838887882198837,
+        "momentum_20d": 0.04882233299637884,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "SBIN.NS",
+      "company_name": "State Bank of India",
+      "sector": "BANKING",
+      "current_price": 971.5,
+      "price_change_pct": 2.4680967215088256,
+      "volume": 17347847,
+      "market_cap": 8967544635392.0,
+      "technical_indicators": {
+        "rsi": 49.1447188718303,
+        "volatility": 0.14581795548103937,
+        "momentum_20d": 0.01637288781063062,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "company_name": "IndusInd Bank",
+      "sector": "BANKING",
+      "current_price": 870.0999755859375,
+      "price_change_pct": 0.8227086426347046,
+      "volume": 3377823,
+      "market_cap": 677873975296.0,
+      "technical_indicators": {
+        "rsi": 56.92109525556648,
+        "volatility": 0.24115912553381383,
+        "momentum_20d": 0.09137657646401687,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "current_price": 1805.300048828125,
+      "price_change_pct": -0.714953508821515,
+      "volume": 1777401,
+      "market_cap": 4331519344640.0,
+      "technical_indicators": {
+        "rsi": 62.68384429137436,
+        "volatility": 0.12271030735180213,
+        "momentum_20d": 0.06734067800047483,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "company_name": "Dr. Reddy's Labs",
+      "sector": "PHARMA",
+      "current_price": 1275.199951171875,
+      "price_change_pct": -0.18785413743936494,
+      "volume": 1036082,
+      "market_cap": 1061634310144.0,
+      "technical_indicators": {
+        "rsi": 66.92305938125025,
+        "volatility": 0.17520605641157225,
+        "momentum_20d": 0.05790602733042238,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "company_name": "Cipla Limited",
+      "sector": "PHARMA",
+      "current_price": 1520.800048828125,
+      "price_change_pct": -0.013146033653846154,
+      "volume": 813485,
+      "market_cap": 1228458426368.0,
+      "technical_indicators": {
+        "rsi": 44.07053868447642,
+        "volatility": 0.1395025110061138,
+        "momentum_20d": 0.010028623328637076,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "company_name": "Divi's Laboratories",
+      "sector": "PHARMA",
+      "current_price": 6473.5,
+      "price_change_pct": 0.06956252898438707,
+      "volume": 148911,
+      "market_cap": 1718510813184.0,
+      "technical_indicators": {
+        "rsi": 45.27310924369748,
+        "volatility": 0.1818470647252145,
+        "momentum_20d": -0.027491925185908483,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "BIOCON.NS",
+      "company_name": "Biocon Limited",
+      "sector": "PHARMA",
+      "current_price": 392.6499938964844,
+      "price_change_pct": 1.1072454552305524,
+      "volume": 4217316,
+      "market_cap": 524217581568.0,
+      "technical_indicators": {
+        "rsi": 33.43090144429631,
+        "volatility": 0.31683947639446025,
+        "momentum_20d": 0.03220294478588648,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "current_price": 2098.800048828125,
+      "price_change_pct": 0.3250501351876195,
+      "volume": 971873,
+      "market_cap": 959851593728.0,
+      "technical_indicators": {
+        "rsi": 63.84108758793453,
+        "volatility": 0.16045070292319347,
+        "momentum_20d": 0.06440815339033912,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "TATAMOTORS.NS",
+      "company_name": "Tata Motors",
+      "sector": "AUTO",
+      "current_price": 353.6000061035156,
+      "price_change_pct": -0.7995528141152933,
+      "volume": 5667381,
+      "market_cap": 1494474162176.0,
+      "technical_indicators": {
+        "rsi": 31.49224433694951,
+        "volatility": 0.22766723153726678,
+        "momentum_20d": -0.1284200259696533,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "company_name": "Maruti Suzuki",
+      "sector": "AUTO",
+      "current_price": 16282.0,
+      "price_change_pct": 1.8006752532199573,
+      "volume": 332032,
+      "market_cap": 5119102418944.0,
+      "technical_indicators": {
+        "rsi": 60.59811122770199,
+        "volatility": 0.16882170180837489,
+        "momentum_20d": 0.05187673622327016,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "M&M.NS",
+      "company_name": "Mahindra & Mahindra",
+      "sector": "AUTO",
+      "current_price": 3717.10009765625,
+      "price_change_pct": 1.2392417145060195,
+      "volume": 2393280,
+      "market_cap": 4460692111360.0,
+      "technical_indicators": {
+        "rsi": 48.06859880960328,
+        "volatility": 0.1756136812075614,
+        "momentum_20d": 0.007289617592627362,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "company_name": "Bajaj Auto",
+      "sector": "AUTO",
+      "current_price": 9109.0,
+      "price_change_pct": 0.26417171161254815,
+      "volume": 279893,
+      "market_cap": 2543435907072.0,
+      "technical_indicators": {
+        "rsi": 58.74799357945426,
+        "volatility": 0.13014149543973388,
+        "momentum_20d": 0.04443043054520435,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "EICHERMOT.NS",
+      "company_name": "Eicher Motors",
+      "sector": "AUTO",
+      "current_price": 7208.0,
+      "price_change_pct": 1.5211267605633803,
+      "volume": 501035,
+      "market_cap": 1977148899328.0,
+      "technical_indicators": {
+        "rsi": 70.12795275590551,
+        "volatility": 0.20162034775011828,
+        "momentum_20d": 0.046761545164101026,
+        "signal_strength": "NEUTRAL"
+      }
+    },
+    {
+      "symbol": "HEROMOTOCO.NS",
+      "company_name": "Hero MotoCorp",
+      "sector": "AUTO",
+      "current_price": 6350.5,
+      "price_change_pct": 0.16561514195583596,
+      "volume": 651633,
+      "market_cap": 1270618259456.0,
+      "technical_indicators": {
+        "rsi": 86.26806833114324,
+        "volatility": 0.234753310864287,
+        "momentum_20d": 0.19911253776435056,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "company_name": "Reliance Industries",
+      "sector": "ENERGY",
+      "current_price": 1540.5999755859375,
+      "price_change_pct": 0.3256056316419355,
+      "volume": 10183266,
+      "market_cap": 20848895328256.0,
+      "technical_indicators": {
+        "rsi": 58.81420880508971,
+        "volatility": 0.14077859387606706,
+        "momentum_20d": 0.042354516634599104,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "ONGC.NS",
+      "company_name": "Oil & Natural Gas Corp",
+      "sector": "ENERGY",
+      "current_price": 241.22999572753906,
+      "price_change_pct": -0.41283078794452965,
+      "volume": 7645591,
+      "market_cap": 3035374288896.0,
+      "technical_indicators": {
+        "rsi": 35.30169675237465,
+        "volatility": 0.14712992405191697,
+        "momentum_20d": -0.020058331923683448,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "NTPC.NS",
+      "company_name": "NTPC Limited",
+      "sector": "ENERGY",
+      "current_price": 323.29998779296875,
+      "price_change_pct": 0.10836834578384956,
+      "volume": 6574010,
+      "market_cap": 3134932123648.0,
+      "technical_indicators": {
+        "rsi": 32.57563146959636,
+        "volatility": 0.13892712665927195,
+        "momentum_20d": -0.008586379203127215,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "company_name": "Tata Power",
+      "sector": "ENERGY",
+      "current_price": 384.5,
+      "price_change_pct": 0.01300241679842396,
+      "volume": 5332479,
+      "market_cap": 1228924256256.0,
+      "technical_indicators": {
+        "rsi": 39.62264150943396,
+        "volatility": 0.18728207876532962,
+        "momentum_20d": -0.022126174814181998,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "company_name": "Adani Green Energy",
+      "sector": "ENERGY",
+      "current_price": 1017.7000122070312,
+      "price_change_pct": 0.42431297507171056,
+      "volume": 1190798,
+      "market_cap": 1676331188224.0,
+      "technical_indicators": {
+        "rsi": 28.554153474074823,
+        "volatility": 0.38190754509627695,
+        "momentum_20d": -0.03972450904078173,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "IOC.NS",
+      "company_name": "Indian Oil Corporation",
+      "sector": "ENERGY",
+      "current_price": 163.66000366210938,
+      "price_change_pct": 0.5529670592583099,
+      "volume": 6124074,
+      "market_cap": 2311081951232.0,
+      "technical_indicators": {
+        "rsi": 26.56099954783224,
+        "volatility": 0.2210514113308468,
+        "momentum_20d": -0.03251359589105973,
+        "signal_strength": "UP"
+      }
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "company_name": "Hindustan Unilever",
+      "sector": "FMCG",
+      "current_price": 2338.60009765625,
+      "price_change_pct": -5.019895051853855,
+      "volume": 4008271,
+      "market_cap": 5494863298560.0,
+      "technical_indicators": {
+        "rsi": 36.995808015333374,
+        "volatility": 0.1746055755821282,
+        "momentum_20d": -0.031234425163111035,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "ITC.NS",
+      "company_name": "ITC Limited",
+      "sector": "FMCG",
+      "current_price": 404.95001220703125,
+      "price_change_pct": 0.47141160441827606,
+      "volume": 4419747,
+      "market_cap": 5073523441664.0,
+      "technical_indicators": {
+        "rsi": 45.966248658775235,
+        "volatility": 0.10092429538167828,
+        "momentum_20d": 0.0022275075887978613,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "company_name": "Nestle India",
+      "sector": "FMCG",
+      "current_price": 1246.9000244140625,
+      "price_change_pct": 0.36220218219347494,
+      "volume": 911699,
+      "market_cap": 2404415176704.0,
+      "technical_indicators": {
+        "rsi": 37.25491239011365,
+        "volatility": 0.08680378597123901,
+        "momentum_20d": -0.012512811727876438,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "BRITANNIA.NS",
+      "company_name": "Britannia Industries",
+      "sector": "FMCG",
+      "current_price": 5961.0,
+      "price_change_pct": 1.437930741087382,
+      "volume": 244408,
+      "market_cap": 1436211347456.0,
+      "technical_indicators": {
+        "rsi": 62.34626300851466,
+        "volatility": 0.1779988896532487,
+        "momentum_20d": -0.03191230207064555,
+        "signal_strength": "NEUTRAL"
+      }
+    },
+    {
+      "symbol": "DABUR.NS",
+      "company_name": "Dabur India",
+      "sector": "FMCG",
+      "current_price": 510.1000061035156,
+      "price_change_pct": 0.3936232977711357,
+      "volume": 1205977,
+      "market_cap": 904759345152.0,
+      "technical_indicators": {
+        "rsi": 36.086536678403576,
+        "volatility": 0.18758094876288195,
+        "momentum_20d": -0.016485140090769512,
+        "signal_strength": "DOWN"
+      }
+    },
+    {
+      "symbol": "GODREJCP.NS",
+      "company_name": "Godrej Consumer Products",
+      "sector": "FMCG",
+      "current_price": 1136.0,
+      "price_change_pct": 0.3001964053816562,
+      "volume": 339262,
+      "market_cap": 1162405871616.0,
+      "technical_indicators": {
+        "rsi": 44.174388775456784,
+        "volatility": 0.21902721101171974,
+        "momentum_20d": 0.01265818377054706,
+        "signal_strength": "DOWN"
+      }
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "TECH",
+      "performance": 0.9726606029494329,
+      "volatility": 0.5079760458940421,
+      "trend": "UPTREND",
+      "strength": "MODERATE"
+    },
+    {
+      "sector": "BANKING",
+      "performance": 0.9048781362162037,
+      "volatility": 0.7389968850511671,
+      "trend": "UPTREND",
+      "strength": "MODERATE"
+    },
+    {
+      "sector": "PHARMA",
+      "performance": 0.09765073991463881,
+      "volatility": 0.55164837031811,
+      "trend": "SIDEWAYS",
+      "strength": "MODERATE"
+    },
+    {
+      "sector": "AUTO",
+      "performance": 0.6985462946237413,
+      "volatility": 0.9037584700256207,
+      "trend": "UPTREND",
+      "strength": "MODERATE"
+    },
+    {
+      "sector": "ENERGY",
+      "performance": 0.16857094010161666,
+      "volatility": 0.31719556175985636,
+      "trend": "UPTREND",
+      "strength": "MODERATE"
+    },
+    {
+      "sector": "FMCG",
+      "performance": -0.34242180350032164,
+      "volatility": 2.1276728877122486,
+      "trend": "UPTREND",
+      "strength": "WEAK"
+    }
+  ]
+}

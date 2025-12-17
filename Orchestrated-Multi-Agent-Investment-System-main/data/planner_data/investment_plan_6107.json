@@ -1,0 +1,119 @@
+{
+  "customer_id": "6107",
+  "plan_date": "2025-12-06T14:13:34.141051",
+  "total_capital": 40000.0,
+  "allocations": [
+    {
+      "symbol": "TCS.NS",
+      "company_name": "Tata Consultancy Services",
+      "sector": "TECH",
+      "weight": 0.14234044894202771,
+      "dollar_amount": 3238.199951171875,
+      "shares": 1,
+      "expected_return": 0.484406566996924,
+      "risk_score": 0.14930780675382063
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "company_name": "Wipro Limited",
+      "sector": "TECH",
+      "weight": 0.14253055966514233,
+      "dollar_amount": 5458.110076904297,
+      "shares": 21,
+      "expected_return": 0.6073347230143478,
+      "risk_score": 0.14672023438788384
+    },
+    {
+      "symbol": "TECHM.NS",
+      "company_name": "Tech Mahindra",
+      "sector": "TECH",
+      "weight": 0.1338010747252862,
+      "dollar_amount": 4712.400146484375,
+      "shares": 3,
+      "expected_return": 0.7610422168844826,
+      "risk_score": 0.18275204939284845
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "company_name": "Sun Pharmaceutical",
+      "sector": "PHARMA",
+      "weight": 0.15916913055685328,
+      "dollar_amount": 5415.900146484375,
+      "shares": 3,
+      "expected_return": 0.3311135901937948,
+      "risk_score": 0.12271030735180213
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "company_name": "Dr. Reddy's Labs",
+      "sector": "PHARMA",
+      "weight": 0.04845280866055775,
+      "dollar_amount": 1275.199951171875,
+      "shares": 1,
+      "expected_return": 0.30217176976265103,
+      "risk_score": 0.17520605641157225
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "company_name": "Cipla Limited",
+      "sector": "PHARMA",
+      "weight": 0.012864675420208305,
+      "dollar_amount": 0.0,
+      "shares": 0,
+      "expected_return": 0.04606160526256185,
+      "risk_score": 0.1395025110061138
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "company_name": "Lupin Limited",
+      "sector": "PHARMA",
+      "weight": 0.15458568797201797,
+      "dollar_amount": 4197.60009765625,
+      "shares": 2,
+      "expected_return": 0.35681400455504003,
+      "risk_score": 0.16045070292319347
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "company_name": "Maruti Suzuki",
+      "sector": "AUTO",
+      "weight": 0.047086483501053225,
+      "dollar_amount": 0.0,
+      "shares": 0,
+      "expected_return": 0.37287834055347696,
+      "risk_score": 0.16882170180837489
+    },
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "company_name": "Bajaj Auto",
+      "sector": "AUTO",
+      "weight": 0.15916913055685328,
+      "dollar_amount": 0.0,
+      "shares": 0,
+      "expected_return": 0.27271630632563604,
+      "risk_score": 0.13014149543973388
+    }
+  ],
+  "portfolio_metrics": {
+    "number_of_stocks": 9,
+    "total_invested": 24297.410369873047,
+    "cash_remaining": 15702.589630126953,
+    "average_allocation": 0.1111111111111111,
+    "max_allocation": 0.15916913055685328,
+    "min_allocation": 0.012864675420208305
+  },
+  "risk_analysis": {
+    "portfolio_volatility": 0.1021481895333497,
+    "risk_level": "MEDIUM",
+    "max_drawdown_estimate": -0.2042963790666994,
+    "sector_distribution": {
+      "TECH": 0.4186720833324563,
+      "PHARMA": 0.3750723026096373,
+      "AUTO": 0.2062556140579065
+    },
+    "concentration_risk": 0.15916913055685328
+  },
+  "expected_annual_return": 0.4414032591023399,
+  "sharpe_ratio": 4.321204919233826,
+  "diversification_score": 0.5625
+}
